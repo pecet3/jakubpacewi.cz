@@ -6,18 +6,27 @@
   <script src="https://cdn.tailwindcss.com"></script>
   <title>Jakub Pacewicz webdev</title>
 </head>
-<body class="bg-gray-950 flex flex-col justify-center items-center gap-2 sm:gap-6">
- <header class="flex flex-col justify-end text-right mt-4">
-  <h1 class="text-[2.8rem] font-thin text-green-400 p-0 m-0">
-    Jakub Pacewicz
-  </h1>
-  <h2 class="text-[1.6rem] font-mono text-teal-400 p-0 m-0"">
-    web developer
-  </h2>
-  <svg xmlns="http://www.w3.org/2000/svg" width="340" height="440" class="opacity-50">
-    <path d="M0 180H60V200H80V20h20V0h40V20h20v80h40v20h60v20h40v20h20v20h20V320H320v60H300v60H100V380H80V340H60V300H40V260H20V240H0V180"/>
-    <path fill="#fff" d="M20 200H60V220H80v60h20V20h40V200h20V120h40v80h20V140h40v80h20V160h20V180h20V320H300v60H280v40H120V380H100V340H80V300H60V260H40V240H20V200"/>
-  </svg>
- </header>
+<body class="bg-gray-950">
+  <nav class="flex bg-gray-900 gap-4 text-lg justify-end m-auto p-2 text-gray-200 font-mono">
+    <a href="/">Home</a>
+    <a href="/">O mnie</a>
+    <a href="/">Kontakt</a>
+    <a href="/">Blog</a>
+  </nav>
+<main class="flex flex-col justify-center items-center">
+  <section class="flex justify-end text-left sm:mt-8 mt-4 items-center gap-4 hover:scale-105 duration-300">
+    <div>
+      <p class="text-white text-xl">Cześć, jestem</p>
+      <h1 class="text-[3.2rem] font-bold text-green-400 p-0 m-0">
+        Jakub Pacewicz
+      </h1>
+      <h2 class="text-xl font-mono text-teal-400 p-0 m-0 text-right">
+        fullstack developer
+      </h2>
+    </div>
+    <img src="/avatar.jpg" alt="jakub pacewicz's face" class="rounded-full h-64 w-64"/>
+    
+  </section>
+</main>
 </body>
 </html>
