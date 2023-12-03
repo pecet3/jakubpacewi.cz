@@ -1,0 +1,15 @@
+.hide {
+    opacity: 0;
+    transition: opacity 1s ease-in-out, transform 0.8s ease-in-out;
+    transform: translateX(-100%); /* Initial position slightly above */
+}
+
+.show {
+    opacity: 1;
+    transform: translateX(0); /* Move back to the normal position */
+}
+
+body{
+    background: linear-gradient(110.6deg, rgb(156, 116, 129) -18.3%, rgb(67, 54, 74) 16.4%, rgb(47, 48, 67) 68.2%, rgb(27, 23, 36) 99.1%); 
+}
+
